@@ -1,0 +1,26 @@
+name: app_1
+description: "A new Flutter project."
+publish_to: 'none'  # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  lottie: ^3.3.2  # Agregar para animaciones Lottie
+  meta: ^1.9.0    # Agregar para manejar anotaciones de metadatos
+  http: ^1.6.0   # Agregar para hacer peticiones HTTP
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0  # Agregar para buenas prácticas de codificación
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/imagenes/  # Asegúrate de tener imágenes en esta carpeta
